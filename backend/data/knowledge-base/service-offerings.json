@@ -1,0 +1,549 @@
+[
+  {
+    "id": "martech_strategy",
+    "name": "Martech Strategy & Implementation",
+    "domain": "Marketing and Advertising Enablement",
+    "typicalRoiRange": { "min": 18, "max": 35 },
+    "implementationComplexity": 6,
+    "timeToValue": { "min": 3, "max": 4, "unit": "months" },
+    "commonSuccessMetrics": [
+      "Marketing automation deployment time reduction",
+      "Lead quality improvement (MQL to SQL conversion rate)",
+      "Marketing operations team efficiency",
+      "Marketing stack cost optimization",
+      "Campaign time-to-market reduction"
+    ],
+    "typicalInvestmentRange": { "min": 250000, "max": 1500000 },
+    "riskProfile": [
+      "Adoption resistance from marketing team",
+      "Data quality issues from CRM/analytics systems",
+      "Vendor integration delays",
+      "Scope creep on integrations"
+    ],
+    "prerequisiteCapabilities": [
+      "Existing CRM",
+      "Analytics infrastructure",
+      "Dedicated marketing ops owner"
+    ],
+    "integrationDependencies": [
+      "marketing_data_analytics",
+      "ai_strategy"
+    ],
+    "caseStudies": [
+      {
+        "industry": "B2B SaaS",
+        "outcomes": "Reduced campaign development time 40%, improved lead quality 22%"
+      },
+      {
+        "industry": "Retail",
+        "outcomes": "Decreased marketing stack costs 35%, improved email engagement 18%"
+      }
+    ]
+  },
+  {
+    "id": "agentic_marketing",
+    "name": "Agentic-Powered Marketing Operating Model",
+    "domain": "Marketing and Advertising Enablement",
+    "typicalRoiRange": { "min": 25, "max": 45 },
+    "implementationComplexity": 8,
+    "timeToValue": { "min": 4, "max": 6, "unit": "months" },
+    "commonSuccessMetrics": [
+      "Marketing team productivity increase",
+      "Content production velocity",
+      "Campaign personalization scale",
+      "Cost per marketing output",
+      "Time to campaign launch"
+    ],
+    "typicalInvestmentRange": { "min": 400000, "max": 2000000 },
+    "riskProfile": [
+      "AI/ML model accuracy and reliability",
+      "Change management complexity",
+      "Data privacy and compliance concerns",
+      "Integration with existing marketing stack"
+    ],
+    "prerequisiteCapabilities": [
+      "Mature marketing operations",
+      "Clean customer data",
+      "Executive sponsorship for AI adoption"
+    ],
+    "integrationDependencies": [
+      "ai_strategy",
+      "martech_strategy"
+    ],
+    "caseStudies": [
+      {
+        "industry": "Financial Services",
+        "outcomes": "Increased content output 3x, reduced content costs 40%"
+      }
+    ]
+  },
+  {
+    "id": "personalization_scale",
+    "name": "Personalization at Scale",
+    "domain": "Marketing and Advertising Enablement",
+    "typicalRoiRange": { "min": 20, "max": 40 },
+    "implementationComplexity": 7,
+    "timeToValue": { "min": 3, "max": 5, "unit": "months" },
+    "commonSuccessMetrics": [
+      "Conversion rate improvement",
+      "Customer engagement metrics",
+      "Average order value increase",
+      "Customer lifetime value growth",
+      "Email/push notification performance"
+    ],
+    "typicalInvestmentRange": { "min": 300000, "max": 1200000 },
+    "riskProfile": [
+      "Data quality and completeness",
+      "Privacy regulation compliance",
+      "Content production capacity",
+      "Technology integration complexity"
+    ],
+    "prerequisiteCapabilities": [
+      "Customer data platform or unified customer view",
+      "Content management system",
+      "Basic segmentation capabilities"
+    ],
+    "integrationDependencies": [
+      "marketing_data_analytics",
+      "enterprise_data"
+    ],
+    "caseStudies": [
+      {
+        "industry": "E-commerce",
+        "outcomes": "Increased conversion 28%, improved AOV by 15%"
+      }
+    ]
+  },
+  {
+    "id": "marketing_data_analytics",
+    "name": "Marketing Data & Analytics Foundation",
+    "domain": "Marketing and Advertising Enablement",
+    "typicalRoiRange": { "min": 15, "max": 30 },
+    "implementationComplexity": 6,
+    "timeToValue": { "min": 4, "max": 6, "unit": "months" },
+    "commonSuccessMetrics": [
+      "Marketing attribution accuracy",
+      "Data accessibility and time-to-insight",
+      "Marketing spend efficiency",
+      "Cross-channel visibility",
+      "Reporting automation"
+    ],
+    "typicalInvestmentRange": { "min": 200000, "max": 800000 },
+    "riskProfile": [
+      "Data source integration complexity",
+      "Stakeholder alignment on metrics definitions",
+      "Legacy system limitations",
+      "Data governance gaps"
+    ],
+    "prerequisiteCapabilities": [
+      "Access to marketing data sources",
+      "Basic analytics infrastructure",
+      "Defined KPIs"
+    ],
+    "integrationDependencies": [
+      "enterprise_data"
+    ],
+    "caseStudies": [
+      {
+        "industry": "CPG",
+        "outcomes": "Reduced reporting time 60%, improved marketing ROI visibility by 85%"
+      }
+    ]
+  },
+  {
+    "id": "adtech_strategy",
+    "name": "AdTech Strategy & Implementation",
+    "domain": "Marketing and Advertising Enablement",
+    "typicalRoiRange": { "min": 20, "max": 35 },
+    "implementationComplexity": 7,
+    "timeToValue": { "min": 3, "max": 5, "unit": "months" },
+    "commonSuccessMetrics": [
+      "ROAS improvement",
+      "Cost per acquisition reduction",
+      "Ad spend efficiency",
+      "Audience reach and targeting accuracy",
+      "Cross-channel attribution"
+    ],
+    "typicalInvestmentRange": { "min": 300000, "max": 1500000 },
+    "riskProfile": [
+      "Privacy regulation changes (cookie deprecation)",
+      "Vendor lock-in risks",
+      "Data integration complexity",
+      "Measurement and attribution challenges"
+    ],
+    "prerequisiteCapabilities": [
+      "First-party data collection",
+      "Digital advertising operations",
+      "Analytics capabilities"
+    ],
+    "integrationDependencies": [
+      "marketing_data_analytics",
+      "enterprise_data"
+    ],
+    "caseStudies": [
+      {
+        "industry": "Retail",
+        "outcomes": "Improved ROAS by 45%, reduced CPA by 30%"
+      }
+    ]
+  },
+  {
+    "id": "full_funnel_commerce",
+    "name": "Full-Funnel Commerce",
+    "domain": "Marketing and Advertising Enablement",
+    "typicalRoiRange": { "min": 22, "max": 42 },
+    "implementationComplexity": 8,
+    "timeToValue": { "min": 4, "max": 7, "unit": "months" },
+    "commonSuccessMetrics": [
+      "E-commerce conversion rate",
+      "Customer acquisition cost",
+      "Cart abandonment reduction",
+      "Revenue per visitor",
+      "Cross-sell/upsell rates"
+    ],
+    "typicalInvestmentRange": { "min": 500000, "max": 2500000 },
+    "riskProfile": [
+      "Platform migration complexity",
+      "Integration with existing systems",
+      "Change management for operations teams",
+      "Performance optimization challenges"
+    ],
+    "prerequisiteCapabilities": [
+      "E-commerce platform",
+      "Payment processing",
+      "Inventory management system"
+    ],
+    "integrationDependencies": [
+      "personalization_scale",
+      "digital_product"
+    ],
+    "caseStudies": [
+      {
+        "industry": "Retail",
+        "outcomes": "Increased online revenue 35%, improved conversion 22%"
+      }
+    ]
+  },
+  {
+    "id": "performance_content",
+    "name": "Performance Content Automation",
+    "domain": "Marketing and Advertising Enablement",
+    "typicalRoiRange": { "min": 25, "max": 50 },
+    "implementationComplexity": 6,
+    "timeToValue": { "min": 2, "max": 4, "unit": "months" },
+    "commonSuccessMetrics": [
+      "Content production velocity",
+      "Content performance metrics",
+      "Cost per content asset",
+      "Time to publish",
+      "Content reuse rate"
+    ],
+    "typicalInvestmentRange": { "min": 150000, "max": 600000 },
+    "riskProfile": [
+      "Content quality consistency",
+      "Brand guideline adherence",
+      "Creative team adoption",
+      "Tool integration challenges"
+    ],
+    "prerequisiteCapabilities": [
+      "Content strategy",
+      "Digital asset management",
+      "Creative team resources"
+    ],
+    "integrationDependencies": [
+      "content_supply_chain",
+      "agentic_marketing"
+    ],
+    "caseStudies": [
+      {
+        "industry": "Media & Entertainment",
+        "outcomes": "Increased content output 4x, reduced production costs 50%"
+      }
+    ]
+  },
+  {
+    "id": "content_supply_chain",
+    "name": "Content Supply Chain Management",
+    "domain": "Marketing and Advertising Enablement",
+    "typicalRoiRange": { "min": 18, "max": 35 },
+    "implementationComplexity": 7,
+    "timeToValue": { "min": 4, "max": 6, "unit": "months" },
+    "commonSuccessMetrics": [
+      "Content production cycle time",
+      "Asset utilization rate",
+      "Workflow efficiency",
+      "Content governance compliance",
+      "Cost per content piece"
+    ],
+    "typicalInvestmentRange": { "min": 250000, "max": 1000000 },
+    "riskProfile": [
+      "Process change resistance",
+      "System integration complexity",
+      "Stakeholder alignment",
+      "Global/regional coordination"
+    ],
+    "prerequisiteCapabilities": [
+      "Content management systems",
+      "Digital asset management",
+      "Defined content workflows"
+    ],
+    "integrationDependencies": [
+      "performance_content",
+      "martech_strategy"
+    ],
+    "caseStudies": [
+      {
+        "industry": "CPG",
+        "outcomes": "Reduced content cycle time 45%, improved asset reuse 60%"
+      }
+    ]
+  },
+  {
+    "id": "enterprise_data",
+    "name": "Enterprise Data Strategy & Implementation",
+    "domain": "Technology and Data Excellence",
+    "typicalRoiRange": { "min": 20, "max": 40 },
+    "implementationComplexity": 8,
+    "timeToValue": { "min": 6, "max": 12, "unit": "months" },
+    "commonSuccessMetrics": [
+      "Data quality improvement",
+      "Time to insight reduction",
+      "Data accessibility",
+      "Analytics adoption",
+      "Decision-making speed"
+    ],
+    "typicalInvestmentRange": { "min": 500000, "max": 3000000 },
+    "riskProfile": [
+      "Organizational change management",
+      "Data governance adoption",
+      "Technical debt from legacy systems",
+      "Scope creep"
+    ],
+    "prerequisiteCapabilities": [
+      "Executive sponsorship",
+      "Basic data infrastructure",
+      "Data stewardship resources"
+    ],
+    "integrationDependencies": [],
+    "caseStudies": [
+      {
+        "industry": "Financial Services",
+        "outcomes": "Reduced reporting time 70%, improved data quality 85%"
+      }
+    ]
+  },
+  {
+    "id": "digital_product",
+    "name": "Digital Product Strategy & Engineering",
+    "domain": "Technology and Data Excellence",
+    "typicalRoiRange": { "min": 25, "max": 50 },
+    "implementationComplexity": 7,
+    "timeToValue": { "min": 4, "max": 8, "unit": "months" },
+    "commonSuccessMetrics": [
+      "Product adoption rate",
+      "User engagement metrics",
+      "Time to market",
+      "Development velocity",
+      "Customer satisfaction scores"
+    ],
+    "typicalInvestmentRange": { "min": 400000, "max": 2000000 },
+    "riskProfile": [
+      "Market fit uncertainty",
+      "Technical complexity",
+      "Resource constraints",
+      "Competitive pressure"
+    ],
+    "prerequisiteCapabilities": [
+      "Product management function",
+      "Engineering resources",
+      "User research capabilities"
+    ],
+    "integrationDependencies": [
+      "scaled_delivery"
+    ],
+    "caseStudies": [
+      {
+        "industry": "Healthcare",
+        "outcomes": "Launched new digital product in 6 months, achieved 50K users in first quarter"
+      }
+    ]
+  },
+  {
+    "id": "scaled_delivery",
+    "name": "Scaled Delivery Excellence",
+    "domain": "Technology and Data Excellence",
+    "typicalRoiRange": { "min": 15, "max": 30 },
+    "implementationComplexity": 6,
+    "timeToValue": { "min": 3, "max": 6, "unit": "months" },
+    "commonSuccessMetrics": [
+      "Delivery velocity improvement",
+      "Quality metrics (defect rates)",
+      "Team productivity",
+      "Cycle time reduction",
+      "Predictability of delivery"
+    ],
+    "typicalInvestmentRange": { "min": 200000, "max": 800000 },
+    "riskProfile": [
+      "Cultural resistance to change",
+      "Tool adoption challenges",
+      "Process standardization difficulties",
+      "Measurement alignment"
+    ],
+    "prerequisiteCapabilities": [
+      "Development teams",
+      "Basic agile practices",
+      "Leadership commitment"
+    ],
+    "integrationDependencies": [],
+    "caseStudies": [
+      {
+        "industry": "Financial Services",
+        "outcomes": "Improved delivery velocity 40%, reduced defects 35%"
+      }
+    ]
+  },
+  {
+    "id": "tech_modernization",
+    "name": "Technology Modernization",
+    "domain": "Technology and Data Excellence",
+    "typicalRoiRange": { "min": 20, "max": 45 },
+    "implementationComplexity": 9,
+    "timeToValue": { "min": 8, "max": 18, "unit": "months" },
+    "commonSuccessMetrics": [
+      "Infrastructure cost reduction",
+      "System performance improvement",
+      "Development productivity",
+      "Time to deploy",
+      "System reliability"
+    ],
+    "typicalInvestmentRange": { "min": 1000000, "max": 10000000 },
+    "riskProfile": [
+      "Migration complexity",
+      "Business continuity risks",
+      "Skills gap",
+      "Vendor dependencies"
+    ],
+    "prerequisiteCapabilities": [
+      "Architecture documentation",
+      "Technical leadership",
+      "Migration planning resources"
+    ],
+    "integrationDependencies": [
+      "enterprise_data"
+    ],
+    "caseStudies": [
+      {
+        "industry": "Manufacturing",
+        "outcomes": "Reduced infrastructure costs 40%, improved deployment frequency 10x"
+      }
+    ]
+  },
+  {
+    "id": "service_model",
+    "name": "Service Model Innovation",
+    "domain": "Technology and Data Excellence",
+    "typicalRoiRange": { "min": 18, "max": 35 },
+    "implementationComplexity": 7,
+    "timeToValue": { "min": 4, "max": 8, "unit": "months" },
+    "commonSuccessMetrics": [
+      "Service delivery efficiency",
+      "Customer satisfaction improvement",
+      "Cost per service transaction",
+      "Service automation rate",
+      "Response time improvement"
+    ],
+    "typicalInvestmentRange": { "min": 300000, "max": 1500000 },
+    "riskProfile": [
+      "Customer experience disruption",
+      "Change management challenges",
+      "Integration complexity",
+      "Process redesign difficulties"
+    ],
+    "prerequisiteCapabilities": [
+      "Service operations baseline",
+      "Customer feedback mechanisms",
+      "Process documentation"
+    ],
+    "integrationDependencies": [
+      "agentic_workflow"
+    ],
+    "caseStudies": [
+      {
+        "industry": "Telecommunications",
+        "outcomes": "Improved NPS by 25 points, reduced service costs 30%"
+      }
+    ]
+  },
+  {
+    "id": "ai_strategy",
+    "name": "AI Strategy & Value Realization",
+    "domain": "Technology and Data Excellence",
+    "typicalRoiRange": { "min": 25, "max": 60 },
+    "implementationComplexity": 8,
+    "timeToValue": { "min": 4, "max": 9, "unit": "months" },
+    "commonSuccessMetrics": [
+      "AI use case ROI",
+      "Model accuracy and performance",
+      "Automation rate",
+      "Time savings from AI",
+      "AI adoption across organization"
+    ],
+    "typicalInvestmentRange": { "min": 300000, "max": 2000000 },
+    "riskProfile": [
+      "Data quality and availability",
+      "AI ethics and governance",
+      "Skills and talent gaps",
+      "Unrealistic expectations"
+    ],
+    "prerequisiteCapabilities": [
+      "Data infrastructure",
+      "Analytics maturity",
+      "Executive sponsorship"
+    ],
+    "integrationDependencies": [
+      "enterprise_data"
+    ],
+    "caseStudies": [
+      {
+        "industry": "Healthcare",
+        "outcomes": "Automated 40% of manual processes, improved diagnostic accuracy 25%"
+      }
+    ]
+  },
+  {
+    "id": "agentic_workflow",
+    "name": "Agentic Workflow Design",
+    "domain": "Technology and Data Excellence",
+    "typicalRoiRange": { "min": 30, "max": 55 },
+    "implementationComplexity": 8,
+    "timeToValue": { "min": 3, "max": 6, "unit": "months" },
+    "commonSuccessMetrics": [
+      "Process automation rate",
+      "Task completion time",
+      "Error reduction",
+      "Employee productivity",
+      "Cost per transaction"
+    ],
+    "typicalInvestmentRange": { "min": 250000, "max": 1200000 },
+    "riskProfile": [
+      "Process complexity",
+      "Integration requirements",
+      "Change management",
+      "AI reliability concerns"
+    ],
+    "prerequisiteCapabilities": [
+      "Documented workflows",
+      "AI/ML infrastructure",
+      "Process ownership"
+    ],
+    "integrationDependencies": [
+      "ai_strategy"
+    ],
+    "caseStudies": [
+      {
+        "industry": "Financial Services",
+        "outcomes": "Automated 60% of workflow tasks, reduced processing time 70%"
+      }
+    ]
+  }
+]

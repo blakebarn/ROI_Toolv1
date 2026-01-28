@@ -1,0 +1,249 @@
+[
+  {
+    "id": "financial_services",
+    "name": "Financial Services",
+    "successRateModifier": 1.05,
+    "avgSuccessRate": 78,
+    "typicalTimelineModifier": 1.1,
+    "keyValueDrivers": [
+      "Regulatory compliance efficiency",
+      "Risk management improvement",
+      "Customer acquisition cost",
+      "Digital channel adoption",
+      "Fraud detection and prevention"
+    ],
+    "performanceMetrics": {
+      "customerAcquisitionCost": { "benchmark": 350, "unit": "USD" },
+      "digitalAdoptionRate": { "benchmark": 65, "unit": "percent" },
+      "operationalEfficiencyRatio": { "benchmark": 55, "unit": "percent" }
+    },
+    "regulatoryContext": [
+      "SOX compliance",
+      "PCI-DSS requirements",
+      "Banking regulations (OCC, FDIC)",
+      "Consumer protection laws"
+    ],
+    "implementationNorms": {
+      "avgProjectDuration": 9,
+      "changeManagementIntensity": "high"
+    }
+  },
+  {
+    "id": "healthcare",
+    "name": "Healthcare",
+    "successRateModifier": 0.95,
+    "avgSuccessRate": 72,
+    "typicalTimelineModifier": 1.2,
+    "keyValueDrivers": [
+      "Patient experience improvement",
+      "Operational efficiency",
+      "Clinical outcome enhancement",
+      "Revenue cycle optimization",
+      "Regulatory compliance"
+    ],
+    "performanceMetrics": {
+      "patientSatisfactionScore": { "benchmark": 75, "unit": "percent" },
+      "claimsProcessingTime": { "benchmark": 14, "unit": "days" },
+      "readmissionRate": { "benchmark": 15, "unit": "percent" }
+    },
+    "regulatoryContext": [
+      "HIPAA compliance",
+      "FDA regulations",
+      "CMS requirements",
+      "State healthcare laws"
+    ],
+    "implementationNorms": {
+      "avgProjectDuration": 12,
+      "changeManagementIntensity": "very high"
+    }
+  },
+  {
+    "id": "retail",
+    "name": "Retail",
+    "successRateModifier": 1.0,
+    "avgSuccessRate": 75,
+    "typicalTimelineModifier": 0.9,
+    "keyValueDrivers": [
+      "E-commerce conversion",
+      "Customer lifetime value",
+      "Inventory optimization",
+      "Omnichannel experience",
+      "Personalization effectiveness"
+    ],
+    "performanceMetrics": {
+      "ecommerceConversionRate": { "benchmark": 2.5, "unit": "percent" },
+      "customerLifetimeValue": { "benchmark": 450, "unit": "USD" },
+      "inventoryTurnover": { "benchmark": 8, "unit": "times/year" }
+    },
+    "regulatoryContext": [
+      "PCI-DSS compliance",
+      "Consumer protection laws",
+      "Privacy regulations (CCPA, GDPR)"
+    ],
+    "implementationNorms": {
+      "avgProjectDuration": 6,
+      "changeManagementIntensity": "medium"
+    }
+  },
+  {
+    "id": "manufacturing",
+    "name": "Manufacturing",
+    "successRateModifier": 0.98,
+    "avgSuccessRate": 74,
+    "typicalTimelineModifier": 1.15,
+    "keyValueDrivers": [
+      "Production efficiency",
+      "Supply chain optimization",
+      "Quality improvement",
+      "Predictive maintenance",
+      "Cost of goods sold reduction"
+    ],
+    "performanceMetrics": {
+      "oeeScore": { "benchmark": 65, "unit": "percent" },
+      "defectRate": { "benchmark": 2, "unit": "percent" },
+      "inventoryDaysOnHand": { "benchmark": 45, "unit": "days" }
+    },
+    "regulatoryContext": [
+      "ISO standards",
+      "Industry-specific safety regulations",
+      "Environmental compliance"
+    ],
+    "implementationNorms": {
+      "avgProjectDuration": 10,
+      "changeManagementIntensity": "high"
+    }
+  },
+  {
+    "id": "cpg",
+    "name": "Consumer Packaged Goods",
+    "successRateModifier": 1.02,
+    "avgSuccessRate": 76,
+    "typicalTimelineModifier": 0.95,
+    "keyValueDrivers": [
+      "Brand marketing effectiveness",
+      "Distribution efficiency",
+      "Trade promotion ROI",
+      "Consumer insights",
+      "Speed to market"
+    ],
+    "performanceMetrics": {
+      "marketingROI": { "benchmark": 5, "unit": "x" },
+      "tradePromotionEffectiveness": { "benchmark": 55, "unit": "percent" },
+      "newProductSuccessRate": { "benchmark": 25, "unit": "percent" }
+    },
+    "regulatoryContext": [
+      "FDA regulations (food/beverage)",
+      "Labeling requirements",
+      "Advertising standards"
+    ],
+    "implementationNorms": {
+      "avgProjectDuration": 7,
+      "changeManagementIntensity": "medium"
+    }
+  },
+  {
+    "id": "telecommunications",
+    "name": "Telecommunications",
+    "successRateModifier": 1.0,
+    "avgSuccessRate": 73,
+    "typicalTimelineModifier": 1.0,
+    "keyValueDrivers": [
+      "Customer churn reduction",
+      "Network efficiency",
+      "ARPU growth",
+      "Service activation speed",
+      "Customer experience"
+    ],
+    "performanceMetrics": {
+      "churnRate": { "benchmark": 1.5, "unit": "percent/month" },
+      "arpu": { "benchmark": 55, "unit": "USD/month" },
+      "nps": { "benchmark": 32, "unit": "score" }
+    },
+    "regulatoryContext": [
+      "FCC regulations",
+      "CPNI requirements",
+      "State PUC requirements"
+    ],
+    "implementationNorms": {
+      "avgProjectDuration": 8,
+      "changeManagementIntensity": "high"
+    }
+  },
+  {
+    "id": "media_entertainment",
+    "name": "Media & Entertainment",
+    "successRateModifier": 1.03,
+    "avgSuccessRate": 77,
+    "typicalTimelineModifier": 0.85,
+    "keyValueDrivers": [
+      "Subscriber growth",
+      "Content engagement",
+      "Advertising revenue",
+      "Content production efficiency",
+      "Audience personalization"
+    ],
+    "performanceMetrics": {
+      "subscriberChurn": { "benchmark": 5, "unit": "percent/month" },
+      "contentEngagementRate": { "benchmark": 35, "unit": "percent" },
+      "adRevenuePerUser": { "benchmark": 8, "unit": "USD/month" }
+    },
+    "regulatoryContext": [
+      "Content licensing requirements",
+      "Privacy regulations",
+      "Advertising standards"
+    ],
+    "implementationNorms": {
+      "avgProjectDuration": 5,
+      "changeManagementIntensity": "medium"
+    }
+  },
+  {
+    "id": "energy",
+    "name": "Energy",
+    "successRateModifier": 0.95,
+    "avgSuccessRate": 71,
+    "typicalTimelineModifier": 1.25,
+    "keyValueDrivers": [
+      "Operational efficiency",
+      "Asset optimization",
+      "Safety improvement",
+      "Regulatory compliance",
+      "Sustainability metrics"
+    ],
+    "performanceMetrics": {
+      "assetUtilization": { "benchmark": 85, "unit": "percent" },
+      "safetyIncidentRate": { "benchmark": 0.5, "unit": "per 100 workers" },
+      "operationalUptime": { "benchmark": 95, "unit": "percent" }
+    },
+    "regulatoryContext": [
+      "FERC regulations",
+      "EPA requirements",
+      "OSHA safety standards",
+      "State utility regulations"
+    ],
+    "implementationNorms": {
+      "avgProjectDuration": 14,
+      "changeManagementIntensity": "very high"
+    }
+  },
+  {
+    "id": "other",
+    "name": "Other",
+    "successRateModifier": 1.0,
+    "avgSuccessRate": 74,
+    "typicalTimelineModifier": 1.0,
+    "keyValueDrivers": [
+      "Operational efficiency",
+      "Revenue growth",
+      "Cost optimization",
+      "Customer experience",
+      "Digital transformation"
+    ],
+    "performanceMetrics": {},
+    "regulatoryContext": [],
+    "implementationNorms": {
+      "avgProjectDuration": 8,
+      "changeManagementIntensity": "medium"
+    }
+  }
+]

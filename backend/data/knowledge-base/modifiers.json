@@ -1,0 +1,168 @@
+{
+  "companySize": {
+    "enterprise_5000_plus": {
+      "name": "Enterprise (5000+ employees)",
+      "achievementModifier": 0.95,
+      "timeToValueMonths": { "min": 18, "max": 24 },
+      "implementationCostMultiplier": 1.3,
+      "stakeholderComplexity": "high",
+      "description": "Larger organizations typically have more stakeholders and longer approval cycles, but greater resources for implementation."
+    },
+    "large_1000_5000": {
+      "name": "Large (1000-5000 employees)",
+      "achievementModifier": 1.0,
+      "timeToValueMonths": { "min": 12, "max": 18 },
+      "implementationCostMultiplier": 1.1,
+      "stakeholderComplexity": "medium-high",
+      "description": "Large companies balance resources with organizational complexity."
+    },
+    "midmarket_250_1000": {
+      "name": "Mid-market (250-1000 employees)",
+      "achievementModifier": 1.05,
+      "timeToValueMonths": { "min": 6, "max": 12 },
+      "implementationCostMultiplier": 0.9,
+      "stakeholderComplexity": "medium",
+      "description": "Mid-market companies often achieve faster time-to-value due to more agile decision-making."
+    },
+    "smb_under_250": {
+      "name": "SMB (<250 employees)",
+      "achievementModifier": 1.1,
+      "timeToValueMonths": { "min": 3, "max": 6 },
+      "implementationCostMultiplier": 0.7,
+      "stakeholderComplexity": "low",
+      "description": "Small businesses can move quickly but may have resource constraints."
+    }
+  },
+  "maturityLevel": {
+    "nascent": {
+      "name": "Nascent",
+      "achievementModifier": 0.8,
+      "rampUpPeriodWeeks": 12,
+      "changeManagementIntensity": "high",
+      "riskLevel": "high",
+      "upsidePotential": "high",
+      "description": "Organizations just beginning their journey. Higher risk but also higher potential upside."
+    },
+    "developing": {
+      "name": "Developing",
+      "achievementModifier": 0.9,
+      "rampUpPeriodWeeks": 8,
+      "changeManagementIntensity": "medium-high",
+      "riskLevel": "medium",
+      "upsidePotential": "medium-high",
+      "description": "Organizations building foundational capabilities. Good balance of risk and opportunity."
+    },
+    "mature": {
+      "name": "Mature",
+      "achievementModifier": 1.0,
+      "rampUpPeriodWeeks": 4,
+      "changeManagementIntensity": "medium",
+      "riskLevel": "low-medium",
+      "upsidePotential": "medium",
+      "description": "Organizations with established practices. Faster adoption and higher likelihood of success."
+    },
+    "advanced": {
+      "name": "Advanced",
+      "achievementModifier": 1.1,
+      "rampUpPeriodWeeks": 2,
+      "changeManagementIntensity": "low",
+      "riskLevel": "low",
+      "upsidePotential": "low-medium",
+      "description": "Industry leaders with sophisticated capabilities. Very high success rates but incremental improvements."
+    }
+  },
+  "engagementType": {
+    "strategic_assessment": {
+      "name": "Strategic Assessment",
+      "valueModifier": 0.7,
+      "confidenceLevel": "lower",
+      "timeToValueMonths": { "min": 6, "max": 12 },
+      "description": "Strategy-focused engagements that create roadmaps but don't directly implement changes."
+    },
+    "implementation": {
+      "name": "Implementation",
+      "valueModifier": 1.1,
+      "confidenceLevel": "higher",
+      "timeToValueMonths": { "min": 3, "max": 6 },
+      "description": "Hands-on implementation that directly delivers value through execution."
+    },
+    "transformation": {
+      "name": "Transformation",
+      "valueModifier": 1.0,
+      "confidenceLevel": "medium",
+      "timeToValueMonths": { "min": 9, "max": 18 },
+      "description": "Large-scale organizational change combining strategy and implementation."
+    },
+    "optimization": {
+      "name": "Optimization",
+      "valueModifier": 1.05,
+      "confidenceLevel": "higher",
+      "timeToValueMonths": { "min": 2, "max": 4 },
+      "description": "Improvements to existing capabilities with focused scope and clear metrics."
+    },
+    "hybrid": {
+      "name": "Hybrid",
+      "valueModifier": 0.95,
+      "confidenceLevel": "medium",
+      "timeToValueMonths": { "min": 4, "max": 9 },
+      "description": "Combined approach mixing strategic guidance with targeted implementation."
+    }
+  },
+  "riskFactors": {
+    "adoption_risk": {
+      "name": "Adoption Risk",
+      "impactModifier": 0.92,
+      "description": "Risk that end users will not adopt the solution effectively."
+    },
+    "scope_creep": {
+      "name": "Scope Creep",
+      "impactModifier": 0.95,
+      "description": "Risk that project scope will expand beyond original boundaries."
+    },
+    "resource_constraints": {
+      "name": "Resource Constraints",
+      "impactModifier": 0.93,
+      "description": "Limited client resources (budget, people, time) may impact delivery."
+    },
+    "market_changes": {
+      "name": "Market Changes",
+      "impactModifier": 0.9,
+      "description": "External market factors may affect expected outcomes."
+    },
+    "technology_risk": {
+      "name": "Technology Risk",
+      "impactModifier": 0.94,
+      "description": "Technical complexity or integration challenges may impact delivery."
+    },
+    "stakeholder_alignment": {
+      "name": "Stakeholder Alignment",
+      "impactModifier": 0.91,
+      "description": "Misalignment among key stakeholders may delay or derail the project."
+    },
+    "other": {
+      "name": "Other",
+      "impactModifier": 0.95,
+      "description": "Other project-specific risk factors."
+    }
+  },
+  "geographicRegions": {
+    "north_america": {
+      "name": "North America",
+      "laborCostIndex": 1.0,
+      "marketMaturityIndex": 1.0,
+      "regulatoryComplexity": "medium"
+    },
+    "emea": {
+      "name": "EMEA",
+      "laborCostIndex": 0.95,
+      "marketMaturityIndex": 0.95,
+      "regulatoryComplexity": "high"
+    },
+    "apac": {
+      "name": "APAC",
+      "laborCostIndex": 0.75,
+      "marketMaturityIndex": 0.85,
+      "regulatoryComplexity": "varies"
+    }
+  }
+}

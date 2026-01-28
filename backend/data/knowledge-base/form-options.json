@@ -1,0 +1,93 @@
+{
+  "industryVerticals": [
+    { "id": "financial_services", "label": "Financial Services" },
+    { "id": "healthcare", "label": "Healthcare" },
+    { "id": "retail", "label": "Retail" },
+    { "id": "manufacturing", "label": "Manufacturing" },
+    { "id": "cpg", "label": "Consumer Packaged Goods (CPG)" },
+    { "id": "telecommunications", "label": "Telecommunications" },
+    { "id": "media_entertainment", "label": "Media & Entertainment" },
+    { "id": "energy", "label": "Energy" },
+    { "id": "other", "label": "Other" }
+  ],
+  "companySizes": [
+    { "id": "enterprise_5000_plus", "label": "Enterprise (5000+ employees)" },
+    { "id": "large_1000_5000", "label": "Large (1000-5000 employees)" },
+    { "id": "midmarket_250_1000", "label": "Mid-market (250-1000 employees)" },
+    { "id": "smb_under_250", "label": "SMB (<250 employees)" }
+  ],
+  "geographicRegions": [
+    { "id": "north_america", "label": "North America" },
+    { "id": "emea", "label": "EMEA" },
+    { "id": "apac", "label": "APAC" }
+  ],
+  "engagementTypes": [
+    { "id": "strategic_assessment", "label": "Strategic Assessment" },
+    { "id": "implementation", "label": "Implementation" },
+    { "id": "transformation", "label": "Transformation" },
+    { "id": "optimization", "label": "Optimization" },
+    { "id": "hybrid", "label": "Hybrid" }
+  ],
+  "maturityLevels": [
+    { "id": "nascent", "label": "Nascent" },
+    { "id": "developing", "label": "Developing" },
+    { "id": "mature", "label": "Mature" },
+    { "id": "advanced", "label": "Advanced" }
+  ],
+  "technologyStacks": [
+    { "id": "legacy", "label": "Legacy Systems" },
+    { "id": "cloud_native", "label": "Cloud-Native" },
+    { "id": "hybrid", "label": "Hybrid" },
+    { "id": "modernizing", "label": "Modernizing" }
+  ],
+  "outcomeCategories": [
+    { "id": "revenue_growth", "label": "Revenue Growth" },
+    { "id": "cost_reduction", "label": "Cost Reduction" },
+    { "id": "efficiency", "label": "Efficiency" },
+    { "id": "risk_mitigation", "label": "Risk Mitigation" },
+    { "id": "customer_experience", "label": "Customer Experience" },
+    { "id": "market_share", "label": "Market Share" },
+    { "id": "other", "label": "Other" }
+  ],
+  "confidenceLevels": [
+    { "id": "high", "label": "High" },
+    { "id": "medium", "label": "Medium" },
+    { "id": "low", "label": "Low" }
+  ],
+  "riskFactors": [
+    { "id": "adoption_risk", "label": "Adoption Risk" },
+    { "id": "scope_creep", "label": "Scope Creep" },
+    { "id": "resource_constraints", "label": "Resource Constraints" },
+    { "id": "market_changes", "label": "Market Changes" },
+    { "id": "technology_risk", "label": "Technology Risk" },
+    { "id": "stakeholder_alignment", "label": "Stakeholder Alignment" },
+    { "id": "other", "label": "Other" }
+  ],
+  "serviceOfferings": {
+    "marketing_advertising": {
+      "domain": "Marketing and Advertising Enablement",
+      "offerings": [
+        { "id": "martech_strategy", "label": "Martech Strategy & Implementation" },
+        { "id": "agentic_marketing", "label": "Agentic-Powered Marketing Operating Model" },
+        { "id": "personalization_scale", "label": "Personalization at Scale" },
+        { "id": "marketing_data_analytics", "label": "Marketing Data & Analytics Foundation" },
+        { "id": "adtech_strategy", "label": "AdTech Strategy & Implementation" },
+        { "id": "full_funnel_commerce", "label": "Full-Funnel Commerce" },
+        { "id": "performance_content", "label": "Performance Content Automation" },
+        { "id": "content_supply_chain", "label": "Content Supply Chain Management" }
+      ]
+    },
+    "technology_data": {
+      "domain": "Technology and Data Excellence",
+      "offerings": [
+        { "id": "enterprise_data", "label": "Enterprise Data Strategy & Implementation" },
+        { "id": "digital_product", "label": "Digital Product Strategy & Engineering" },
+        { "id": "scaled_delivery", "label": "Scaled Delivery Excellence" },
+        { "id": "tech_modernization", "label": "Technology Modernization" },
+        { "id": "service_model", "label": "Service Model Innovation" },
+        { "id": "ai_strategy", "label": "AI Strategy & Value Realization" },
+        { "id": "agentic_workflow", "label": "Agentic Workflow Design" }
+      ]
+    }
+  }
+}

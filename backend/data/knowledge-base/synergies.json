@@ -1,0 +1,116 @@
+[
+  {
+    "primary": "martech_strategy",
+    "secondary": "marketing_data_analytics",
+    "multiplier": 1.35,
+    "description": "Marketing Data & Analytics Foundation significantly enhances Martech implementation outcomes through better data quality and measurement."
+  },
+  {
+    "primary": "martech_strategy",
+    "secondary": "ai_strategy",
+    "multiplier": 1.25,
+    "description": "AI Strategy enables more sophisticated marketing automation and personalization capabilities."
+  },
+  {
+    "primary": "personalization_scale",
+    "secondary": "enterprise_data",
+    "multiplier": 1.4,
+    "description": "Enterprise Data Strategy provides the unified customer view essential for effective personalization."
+  },
+  {
+    "primary": "personalization_scale",
+    "secondary": "marketing_data_analytics",
+    "multiplier": 1.3,
+    "description": "Marketing analytics foundation enables measurement and optimization of personalization efforts."
+  },
+  {
+    "primary": "adtech_strategy",
+    "secondary": "enterprise_data",
+    "multiplier": 1.35,
+    "description": "Enterprise Data Strategy improves first-party data capabilities critical for effective AdTech."
+  },
+  {
+    "primary": "adtech_strategy",
+    "secondary": "marketing_data_analytics",
+    "multiplier": 1.3,
+    "description": "Analytics foundation enables better attribution and optimization of advertising spend."
+  },
+  {
+    "primary": "full_funnel_commerce",
+    "secondary": "personalization_scale",
+    "multiplier": 1.4,
+    "description": "Personalization dramatically improves commerce conversion and customer experience."
+  },
+  {
+    "primary": "full_funnel_commerce",
+    "secondary": "digital_product",
+    "multiplier": 1.25,
+    "description": "Digital product capabilities enhance the commerce platform user experience."
+  },
+  {
+    "primary": "agentic_marketing",
+    "secondary": "ai_strategy",
+    "multiplier": 1.45,
+    "description": "AI Strategy provides the foundation for effective agentic marketing capabilities."
+  },
+  {
+    "primary": "agentic_marketing",
+    "secondary": "content_supply_chain",
+    "multiplier": 1.3,
+    "description": "Content supply chain optimization multiplies the impact of AI-powered content creation."
+  },
+  {
+    "primary": "performance_content",
+    "secondary": "agentic_marketing",
+    "multiplier": 1.35,
+    "description": "Agentic capabilities dramatically accelerate content performance optimization."
+  },
+  {
+    "primary": "enterprise_data",
+    "secondary": "ai_strategy",
+    "multiplier": 1.4,
+    "description": "AI Strategy enables advanced analytics and automation on the enterprise data foundation."
+  },
+  {
+    "primary": "digital_product",
+    "secondary": "scaled_delivery",
+    "multiplier": 1.3,
+    "description": "Scaled delivery excellence accelerates product development and improves quality."
+  },
+  {
+    "primary": "tech_modernization",
+    "secondary": "enterprise_data",
+    "multiplier": 1.35,
+    "description": "Data strategy ensures modernization delivers on analytics and AI potential."
+  },
+  {
+    "primary": "tech_modernization",
+    "secondary": "scaled_delivery",
+    "multiplier": 1.25,
+    "description": "Delivery excellence ensures modernization is executed effectively."
+  },
+  {
+    "primary": "service_model",
+    "secondary": "agentic_workflow",
+    "multiplier": 1.5,
+    "description": "Agentic workflows are transformative for service model innovation."
+  },
+  {
+    "primary": "ai_strategy",
+    "secondary": "enterprise_data",
+    "multiplier": 1.45,
+    "description": "Enterprise data foundation is essential for AI strategy success."
+  },
+  {
+    "primary": "agentic_workflow",
+    "secondary": "ai_strategy",
+    "multiplier": 1.4,
+    "description": "AI strategy provides the models and infrastructure for agentic workflows."
+  },
+  {
+    "primary": "agentic_workflow",
+    "secondary": "service_model",
+    "multiplier": 1.3,
+    "description": "Service model innovation defines the target state for agentic workflows."
+  }
+]
