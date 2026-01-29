@@ -125,7 +125,7 @@ export default function OutcomesMetrics({
                       onChange={e => updateOutcome(outcome.id, { outcomeCategory: e.target.value })}
                     >
                       <option value="">Select category</option>
-                      {formOptions?.outcomeCategories.map(opt => (
+                      {formOptions?.outcomeCategories?.map(opt => (
                         <option key={opt.id} value={opt.id}>
                           {opt.label}
                         </option>
@@ -201,7 +201,7 @@ export default function OutcomesMetrics({
                   <div className="form-group">
                     <label>Confidence Level</label>
                     <div className="multi-select">
-                      {formOptions?.confidenceLevels.map(opt => (
+                      {formOptions?.confidenceLevels?.map(opt => (
                         <button
                           key={opt.id}
                           type="button"
@@ -228,7 +228,7 @@ export default function OutcomesMetrics({
             ) : (
               <div style={{ fontSize: '0.875rem', color: 'var(--text-secondary)' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
-                  <span>Category: {formOptions?.outcomeCategories.find(c => c.id === outcome.outcomeCategory)?.label || '-'}</span>
+                  <span>Category: {formOptions?.outcomeCategories?.find(c => c.id === outcome.outcomeCategory)?.label || '-'}</span>
                   <span>Confidence: {outcome.confidenceLevel}</span>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>

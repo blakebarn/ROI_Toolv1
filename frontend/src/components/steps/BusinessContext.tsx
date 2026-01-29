@@ -80,7 +80,7 @@ export default function BusinessContext({
             onChange={e => updateProject({ organizationalMaturity: e.target.value })}
           >
             <option value="">Select maturity level</option>
-            {formOptions?.maturityLevels.map(opt => (
+            {formOptions?.maturityLevels?.map(opt => (
               <option key={opt.id} value={opt.id}>
                 {opt.label}
               </option>
@@ -103,7 +103,7 @@ export default function BusinessContext({
       <div className="form-group">
         <label>Technology Stack Context</label>
         <div className="multi-select">
-          {formOptions?.technologyStacks.map(opt => (
+          {formOptions?.technologyStacks?.map(opt => (
             <button
               key={opt.id}
               type="button"

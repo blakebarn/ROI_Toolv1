@@ -79,7 +79,7 @@ export default function AssumptionsRisks({
           Select all that apply. Each risk factor reduces projected achievement by approximately 3-9%.
         </p>
         <div className="multi-select">
-          {formOptions?.riskFactors.map(opt => (
+          {formOptions?.riskFactors?.map(opt => (
             <button
               key={opt.id}
               type="button"

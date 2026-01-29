@@ -130,7 +130,7 @@ export default function ProjectOverview({
             onChange={e => updateProject({ industryVertical: e.target.value })}
           >
             <option value="">Select industry</option>
-            {formOptions?.industryVerticals.map(opt => (
+            {formOptions?.industryVerticals?.map(opt => (
               <option key={opt.id} value={opt.id}>
                 {opt.label}
               </option>
@@ -145,7 +145,7 @@ export default function ProjectOverview({
             onChange={e => updateProject({ companySize: e.target.value })}
           >
             <option value="">Select company size</option>
-            {formOptions?.companySizes.map(opt => (
+            {formOptions?.companySizes?.map(opt => (
               <option key={opt.id} value={opt.id}>
                 {opt.label}
               </option>
@@ -157,7 +157,7 @@ export default function ProjectOverview({
       <div className="form-group">
         <label>Geographic Regions</label>
         <div className="multi-select">
-          {formOptions?.geographicRegions.map(opt => (
+          {formOptions?.geographicRegions?.map(opt => (
             <button
               key={opt.id}
               type="button"
@@ -178,7 +178,7 @@ export default function ProjectOverview({
             onChange={e => updateProject({ engagementType: e.target.value })}
           >
             <option value="">Select engagement type</option>
-            {formOptions?.engagementTypes.map(opt => (
+            {formOptions?.engagementTypes?.map(opt => (
               <option key={opt.id} value={opt.id}>
                 {opt.label}
               </option>
