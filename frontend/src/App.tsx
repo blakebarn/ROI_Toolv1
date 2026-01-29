@@ -4,20 +4,18 @@ import { knowledgeBaseApi, calculationsApi, projectsApi, exportsApi } from './se
 import StepIndicator from './components/StepIndicator'
 import ProjectOverview from './components/steps/ProjectOverview'
 import BusinessContext from './components/steps/BusinessContext'
-import InvestmentProfile from './components/steps/InvestmentProfile'
-import OutcomesMetrics from './components/steps/OutcomesMetrics'
+import InvestmentOutcomes from './components/steps/InvestmentOutcomes'
 import AssumptionsRisks from './components/steps/AssumptionsRisks'
 import ReviewForecast from './components/steps/ReviewForecast'
 import ROIDashboard from './components/ROIDashboard'
 import InsightsPanel from './components/InsightsPanel'
 
 const STEPS = [
-  { id: 1, label: 'Project Overview', component: ProjectOverview },
-  { id: 2, label: 'Business Context', component: BusinessContext },
-  { id: 3, label: 'Investment', component: InvestmentProfile },
-  { id: 4, label: 'Outcomes', component: OutcomesMetrics },
-  { id: 5, label: 'Risks', component: AssumptionsRisks },
-  { id: 6, label: 'Review', component: ReviewForecast },
+  { id: 1, label: 'Project', component: ProjectOverview },
+  { id: 2, label: 'Context', component: BusinessContext },
+  { id: 3, label: 'Investment & Outcomes', component: InvestmentOutcomes },
+  { id: 4, label: 'Risks', component: AssumptionsRisks },
+  { id: 5, label: 'Review', component: ReviewForecast },
 ]
 
 const initialProject: Partial<Project> = {
